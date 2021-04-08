@@ -1,3 +1,4 @@
+/* GENERAL SETUP */
 * {
     margin: 0px;
     padding: 0px;
@@ -23,39 +24,35 @@
     text-decoration: none;
 }
 
-
 .logo {
     font-size: 32px;
     list-style: none;
     text-align: left;
     grid-column-start: 1;
     grid-column-end: 2;
+    list-style: none;
+    text-decoration: none;
 }
 
 .about {
     font-size: 26px;
-    text-align: right;
+    text-align: center;
     grid-column-start: 3;
     grid-column-end: 4;
 }
 
 .about a:hover {
-    font-weight: 700;
+    text-decoration: underline;
+    padding: 20px;
     cursor: pointer;
 }
 
 .contact {
     font-size: 26px;
-    text-align: right;
+    text-align: center;
     grid-column-start: 4;
     grid-column-end: 5;
 }
-
-.contact a:hover {
-    font-weight: 700;
-    cursor: pointer;
-}
-
 
 /* FILTER GALLERY */
 .section-gallery {
@@ -80,7 +77,7 @@
 }
 
 .section-gallery ul li.active {
-    background: #03a9f4;
+    background: #000000;
     color: white;
 }
 
@@ -91,7 +88,7 @@
 
 .gallery-work .itemBox {
     position: relative;
-    width: 300px;
+    width: 600px;
     height: 300px;
     margin: 5px;
 }

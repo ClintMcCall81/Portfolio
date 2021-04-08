@@ -7,7 +7,7 @@
 /* NAVIGATION */
 .main-nav {
     padding: 20px;
-    width: 1280px;
+    width: 1360px;
     margin: 40px auto;
 }
 
@@ -60,7 +60,7 @@
 /* FILTER GALLERY */
 .section-gallery {
     padding: 20px;
-    width: 1280px;
+    width: 1360px;
     margin: 40px auto;
 }
 
@@ -184,7 +184,7 @@
 /* New Court Bank Info Page */
 .project_ncbank {
     padding: 20px;
-    width: 1280px;
+    width: 1360px;
     margin: 40px auto;;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -216,7 +216,7 @@
 /* Future of Info Design Jam Page */
 .project_foi {
     padding: 20px;
-    width: 1280px;
+    width: 1360px;
     margin: 40px auto;;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -252,7 +252,7 @@
 /* Music App Info Page */
 .project_musicApp {
     padding: 20px;
-    width: 1280px;
+    width: 1360px;
     margin: 40px auto;;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -274,7 +274,7 @@
     grid-area: work1;
     margin-top: 10px;
     margin-bottom: 25px;
-    width: 1280px;
+    width: 1360px;
     border-radius: 5px;
 }
 
@@ -289,7 +289,45 @@
     margin-left: 250px;
 }
 
+/* Lemon Magic Cake Project */
+.project_lemonCake {
+    padding: 20px;
+    width: 1360px;
+    margin: 40px auto;;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    grid-gap: 20px;
+    grid-template-areas:
+    " title title title "
+    " work1 work1 work1 "
+    " desp  desp  skill ";
+}
+.project_lemonCake .title {
+    grid-area: title;
+    text-align: left;
+    font-family: Montserrat;
+    text-transform: uppercase;
+}
 
+.lemonCake_img {
+    grid-area: work1;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    width: 1360px;
+    border-radius: 5px;
+}
+
+.content_lemonCake {
+    font-family: Montserrat;
+    grid-area: desp;
+}
+
+.skills_lemonCake {
+    grid-area: skill;
+    font-family: Montserrat;
+    margin-left: 250px;
+}
 
 
 /* Project WIP Pages */
@@ -298,7 +336,7 @@
 /* Contact Page */
 .project_contact {
     padding: 20px;
-    width: 1280px;
+    width: 1360px;
     margin: 40px auto;;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -324,9 +362,10 @@
 /* Contact Form */
 .contact-form {
     padding: 20px;
-    width: 1280px;
+    width: 1360px;
     margin: 40px auto;
 }
+
 input[type=text], select, textarea {
     width: 100%;
     padding: 12px;
@@ -337,7 +376,7 @@ input[type=text], select, textarea {
     resize: vertical
 }
 
-  input[type=submit] {
+input[type=submit] {
     background-color: #03a9f4;
     color: white;
     padding: 12px 20px;
@@ -360,4 +399,22 @@ input[type=email] {
     box-sizing: border-box;
     margin-bottom: 16px;
     resize: vertical
+}
+
+/* About Me Page */
+.aboutMe {
+    padding: 20px;
+    width: 1360px;
+    margin: 40px auto;
+}
+
+.aboutMe .title {
+    grid-area: title;
+    text-align: center;
+    font-family: Montserrat;
+    text-transform: uppercase;
+}
+
+.aboutMe .description {
+    font-family: Montserrat;
 }

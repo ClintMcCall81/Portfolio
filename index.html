@@ -11,11 +11,13 @@
 
         <!-- CSS Links -->
         <link rel="stylesheet" href="css/styles.css">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
-        
-        <!-- SCRIPT Links -->
+
+        <!-- Plugin Links -->
         <script src="https://kit.fontawesome.com/dffce36e0a.js" crossorigin="anonymous"></script>
-        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+
     </head>
     <body>
         <!-- NAVIGATION -->
@@ -43,15 +45,53 @@
                     <img src="./img/musicApp-01.png">
                     <div class="overlay">
                         <div class="text"><a>Music Player</a></div>
-                        <div class="s-text"><a href="#">Click here</a></div>
+                        <div id="modal-musicApp"><a>Click Here</a></div>
                     </div>
                 </div>
-                
+
+                <!-- MODAL -->
+                <div class="modal">
+                    <div class="modal-content-ma">
+                        <div class="team-mem">Team Members: Myself</div>
+                        <div class="close-btn">&times;</div>
+                        <img class="modal-img" src="./img/musicApp-01.png">
+                        <h2 class="modal-title">Music App</h2>
+                        <p class="modal-description">
+                            This was a JavaScript based music player I did as a test of my skills since starting
+                            to learn Javascript, This taught me a lot about arrays and multiple other functions
+                            that could be used in real life applications. This didnt use Bootstrap or Jquery since
+                            this was my first real project using JavaScript. The music player plays 3 songs currently
+                            and allows you to skip a song, play and pause a song, as well as adjust the volume.
+                        </p>
+                        <h2 class="modal-title-process">Process</h2>
+                        <p class="modal-details">
+                            The process applied to this project was normally how I would approach a web design page,
+                            Structure and Functionality comes first, styling comes second. This approach has saved me
+                            from tons of mistakes and always gives me great looking results. 
+                        </p>
+                        <h2 class="modal-title-skills">Skills</h2>
+                        <ul class="modal-skills">
+                            <li class="list-content">HTML and CSS</li>
+                            <li class="list-content">JavaScript</li>
+                            <li class="list-content">VSCode</li>
+                            <li class="list-content">Design Thinking</li>
+                        </ul>
+
+                        <footer class="modal-footer">
+                            <div class="deatils">
+                                <p>Clint McCall, GBC Interaction Design Student</p>
+                            </div>
+                        </footer>
+
+                    </div>
+
+                </div>
+
                 <div class="itemBox current">
                     <img src="./img/ncBank-01.png">
                     <div class="overlay">
                         <div class="text"><a>Bank App Concept</a></div>
-                        <div class="s-text"><a href="#">Click here</a></div>
+                        <div id="modal-newCourt"><a>Click Here</a></div>
                     </div>
                 </div>
                 
@@ -108,9 +148,8 @@
 
         </section>
         
-        <!-- jQuery Script -->
-        <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+        <!-- JavaScript -->
         <script type="text/javascript" src="js/script.js"></script>
-
+        
     </body>
 </html>
